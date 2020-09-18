@@ -470,6 +470,3 @@ class PipeInput(object):
 
     def close(self):
         os.close(self.handle_receiver)
-
-
-

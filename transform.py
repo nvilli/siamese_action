@@ -1,3 +1,5 @@
+# 2020.09.18 update transform file
+
 import torchvision
 import random
 from PIL import Image, ImageOps
