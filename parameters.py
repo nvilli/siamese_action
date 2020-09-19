@@ -19,11 +19,11 @@ _C.BACKBONE = 'VGG16'
 # pre-trained or not, if not, 'None'
 _C.PRETRAIN_TYPE = 'imagenet'
 
-_C.SNAPSHOT_ROOT = '/data'
+_C.SNAPSHOT_ROOT = '/Users/firmiana/data'
 _C.EXP_NAME = "{}_{}_{}".format(_C.MODEL_NAME, _C.BACKBONE, _C.PRETRAIN_TYPE)
 
 _C.DATASET = edict()
-_C.DATASET.ROOT_PATH = "/data"
+_C.DATASET.ROOT_PATH = "/Users/firmiana/data"
 _C.DATASET.NAME = "HMDB51"
 _C.DATASET.CLASS_NUM = 174
 _C.DATASET.IMG_FORMAT = 'img_{:05d}.jpg'
